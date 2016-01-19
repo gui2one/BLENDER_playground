@@ -1,21 +1,21 @@
 <?xml version="1.0" ?>
 <blenderScene>
 	<cameras>
-		<camera aperture="41.421399999999998" focal_length="50" focus_distance="4.1253161155485865" name="cam1">
+		<camera aperture="41.421399999999998" focal_length="50" focus_distance="5" name="cam1">
 			<transforms>
 				<translation>4.14592229285 1.21233848775 1.04437784713</translation>
 				<rotation>-10.6179679044 73.3145743622 -1.50788279748e-05</rotation>
 				<scale>1.0 1.0 1.0</scale>
 			</transforms>
 		</camera>
-		<camera aperture="41.421399999999998" focal_length="50" focus_distance="2.5928710804455277" name="cam2">
+		<camera aperture="41.421399999999998" focal_length="50" focus_distance="2.6763632175706853" name="cam2">
 			<transforms>
 				<translation>-0.697122271591 3.67315765906 0.426003710359</translation>
 				<rotation>-77.3595421623 -57.1348670864 -1.50788279648e-05</rotation>
 				<scale>1.0 1.0 1.0</scale>
 			</transforms>
 		</camera>
-		<camera aperture="41.421399999999998" focal_length="50" focus_distance="6.090343657275394" name="cam3">
+		<camera aperture="41.421399999999998" focal_length="50" focus_distance="5" name="cam3">
 			<transforms>
 				<translation>-0.0324553602635 0.656072986691 6.05481632665</translation>
 				<rotation>-4.04493504975 -0.505652007016 -1.50788279646e-05</rotation>
@@ -24,18 +24,26 @@
 		</camera>
 	</cameras>
 	<objects>
-		<object name="geo1">
+		<object isObjAnim="False" isPointAnim="True" name="rubber_toy">
+			<pc2file filepath="F:/BLENDER_playground/houdini_hips/geo/rubber_toy.fpc/rubber_toy.pc2"/>
 			<transforms>
 				<translation>0.0 0.0 0.0</translation>
 				<rotation>0.0 -0.0 0.0</rotation>
 				<scale>1.0 1.0 1.0</scale>
 			</transforms>
 		</object>
-		<object name="box">
+		<object isObjAnim="True" isPointAnim="False" name="box">
 			<transforms>
 				<translation>-0.796879589558 0.675353497267 -1.47051537037</translation>
 				<rotation>0.0 -0.0 0.0</rotation>
-				<scale>1.7 3.1 0.8</scale>
+				<scale>1.3 3.1 0.3</scale>
+			</transforms>
+		</object>
+		<object isObjAnim="False" isPointAnim="False" name="grid">
+			<transforms>
+				<translation>0.0 0.0 0.0</translation>
+				<rotation>0.0 -0.0 0.0</rotation>
+				<scale>1.0 1.0 1.0</scale>
 			</transforms>
 		</object>
 	</objects>
